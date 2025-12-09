@@ -1,11 +1,12 @@
-## ✅ Standard GitHub workflow
+## ✅ Standard GitHub workflow during this project
 
 ### 1️⃣ Clone the main repository  
 Each member runs this once:
 
 git clone https://github.com/Beylessen1/GLProjectERP.git
-cd REPO  
 
+cd REPO  
+---
 ### 2️⃣ Each Member Creates Their Own Branch 
 
 Each person works only in their own branch.
