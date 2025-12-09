@@ -1,34 +1,21 @@
-## ✅ PART 1 — One-Time Setup (Everyone Must Do This Once)
+## ✅ Standard GitHub workflow
 
 ### 1️⃣ Clone the main repository  
 Each member runs this once:
 
-git clone https://github.com/USERNAME/REPO.git  
+git clone https://github.com/Beylessen1/GLProjectERP.git
 cd REPO  
 
-### 2️⃣ Set main branch protection (Only the Scrum Master / Owner)  
-On GitHub:
-
-Go to Settings → Branches  
-Protect main:  
-✅ Require pull request before merging  
-✅ Block force pushes  
-✅ Require reviews  
-
-This prevents accidental destruction.
-
----
-
-## ✅ PART 2 — Each Member Creates Their Own Branch (REQUIRED)
+### 2️⃣ Each Member Creates Their Own Branch 
 
 Each person works only in their own branch.
 
-### 1️⃣ Make sure you are on main
+### Make sure you are on main
 
 git checkout main  
 git pull origin main  
 
-### 2️⃣ Create your personal branch  
+### Create your personal branch  
 Use this format:
 
 git checkout -b username-feature  
@@ -39,7 +26,7 @@ git checkout -b sara-auth
 git checkout -b ali-backend  
 git checkout -b amine-ui  
 
-### 3️⃣ Push your branch to GitHub
+### Push your branch to GitHub
 
 git push -u origin username-feature  
 
@@ -48,9 +35,9 @@ git push -u origin username-feature
 
 ---
 
-## ✅ PART 3 — Daily Work Flow (What EVERY Member Does Every Day)
+### 3️⃣ Daily Work Flow (What EVERY Member Does Every Day)
 
-### 1️⃣ Always update your branch before working
+### 1️ Always update your branch before working
 
 git checkout username-feature  
 git pull origin main  
@@ -58,10 +45,10 @@ git pull origin main
 ✅ This prevents conflicts  
 ✅ This keeps your code up-to-date
 
-### 2️⃣ Make your changes normally  
+### 2️ Make your changes normally  
 Edit files, write code, test locally.
 
-### 3️⃣ Save your work with commits
+### 3️ Save your work with commits
 
 git status  
 git add .  
@@ -73,7 +60,7 @@ git push
 
 ---
 
-## ❌ PART 4 — Things They Must NEVER DO
+## ❌ IMPORTANT — Things You Must NEVER DO
 
 These rules protect the project from breaking:
 
