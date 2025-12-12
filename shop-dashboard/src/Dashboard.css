@@ -1,0 +1,78 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 12px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.count {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.section {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 25px;
+  width: 300px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.btn.add {
+  background-color: #007bff;
+}
+
+.btn.remove {
+  background-color: #d9534f;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
